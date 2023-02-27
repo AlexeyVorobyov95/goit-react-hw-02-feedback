@@ -1,10 +1,12 @@
 import { Global, css } from '@emotion/react';
 
-export const GlobalStyle = () => {
+
+export const GlobalStyles = () => {
   return (
     <Global
       styles={css`
         body {
+          margin: 0;
           font-size: 14px;
           font-family: sans-serif;
           line-height: 1.5;

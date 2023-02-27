@@ -11,4 +11,5 @@ export const Text = styled.p`
   width: 170px;
   border-radius: 5px;
   margin-bottom: 10px;
+  margin-top: 10px;
 `;
